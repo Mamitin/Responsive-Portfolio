@@ -189,17 +189,59 @@ border: none;
 
 /* Media Queries */
 @media screen and (max-width: 980px) {
-  containter {
+  #containter {
     position: static;
-}
-  main-bio {
-    float: left;
+  } 
+
+  #header-container {
+    width: 980px;
+  }
+ 
+  #main-name {
+    width: 250px;
+    margin-left: 50px;
   }
 
+  #main-menu {
+    margin-right: 100px;
+  }
+
+  #main-bio {
+    width: 390px;
+    margin-left: 130px;
+  }
+
+  #bio-image {
+    width: 100%;
+  }
+
+  footer {
+    width: 960px;
+  }
+}
 
 @media screen and (max-width: 768px) {
+  #container {
+    position: static;
+    width: 255px;
+  }
+
+  #header-container {
+    width: 420px;
+  }
+
+  #main-name {
+    position: static;
+    width: 685px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  #main-menu {
+    position: static;
   
-}
+  }
+
 
 
 @media screen and (max-width: 640px) {
