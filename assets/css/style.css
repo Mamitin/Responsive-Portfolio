@@ -216,7 +216,7 @@ border: none;
   }
 
   footer {
-    width: 980px;
+    width: 100%;
   }
 }
 
@@ -227,44 +227,45 @@ border: none;
   }
 
   #header-container {
-    width: 420px;
+    width: 100%;
+    position: static;
   }
 
   #main-bio {
-    position: static;
+    
     width: 685px;
     margin-right: 35px;
     margin-left: 35px;
   }
 
-  #main-menu {
-    position: static;
+  /* #main-menu */
+    /*position: static;*/
   
   }
  
   #bio-image {
-    position: static;
+   /*position: static; */
     width: 50%;
   }
   
   footer {
-    width: 768px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 640px) {
   #container {
-    position: static;
+   /* position: static; */
   }
 
   #main-name {
-    position: static;
+   /* position: static; */
     width: 640px;
     margin: 0;
   }
 
   #main-menu {
-    position: static;
+   
     width: 640px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -273,19 +274,19 @@ border: none;
   }
 
   #container {
-    position: static;
+    
     width: 550px;
     margin: 30px;
     margin-bottom: 0px;
   }
 
   #bio-image {
-    position: static;
+  
     width: 100%;
   }
 
   footer {
-    width: 640px;
+    width: 100%;
   }
 
 }
