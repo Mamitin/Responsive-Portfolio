@@ -192,3 +192,16 @@ border: none;
   containter {
     position: static;
 }
+  main-bio {
+    float: left;
+  }
+
+
+@media screen and (max-width: 768px) {
+  
+}
+
+
+@media screen and (max-width: 640px) {
+
+}
