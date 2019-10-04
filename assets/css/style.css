@@ -216,7 +216,7 @@ border: none;
   }
 
   footer {
-    width: 960px;
+    width: 980px;
   }
 }
 
@@ -230,7 +230,7 @@ border: none;
     width: 420px;
   }
 
-  #main-name {
+  #main-bio {
     position: static;
     width: 685px;
     margin-right: 35px;
@@ -241,9 +241,51 @@ border: none;
     position: static;
   
   }
-
-
+ 
+  #bio-image {
+    position: static;
+    width: 50%;
+  }
+  
+  footer {
+    width: 768px;
+  }
+}
 
 @media screen and (max-width: 640px) {
+  #container {
+    position: static;
+  }
+
+  #main-name {
+    position: static;
+    width: 640px;
+    margin: 0;
+  }
+
+  #main-menu {
+    position: static;
+    width: 640px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 150px;
+    text-align: center;
+  }
+
+  #container {
+    position: static;
+    width: 550px;
+    margin: 30px;
+    margin-bottom: 0px;
+  }
+
+  #bio-image {
+    position: static;
+    width: 100%;
+  }
+
+  footer {
+    width: 640px;
+  }
 
 }
